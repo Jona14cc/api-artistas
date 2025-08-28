@@ -64,7 +64,7 @@ const artists = [
     genre: "Pop / Alternativo",
     country: "Estados Unidos",
     slug: slugify("Billie Eilish"),
-    photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.independentespanol.com%2Fap%2Fresea-billie-eilish-sigue-brillando-en-2do-lbum-resea-billie-eilish-sigue-brillando-en-2do-lbum-b1894107.html&psig=AOvVaw2W9J55qUU58Gtrh3k_1cRI&ust=1756454470262000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLibjP2ErY8DFQAAAAAdAAAAABAK",
+    photo: "https://revistamundodiners.com/wp-content/uploads/2023/12/word-image-23-854x1024.jpg",
     events: [
       { id: "4-1", date: "2025-09-30", city: "Los Ángeles", country: "USA", venue: "Crypto.com Arena", price_from: 85, currency: "USD", tickets_url: "https://tickets.example.com/billie-elish-la-2025-09-30" },
       { id: "4-2", date: "2025-11-02", city: "Berlín", country: "Alemania", venue: "Mercedes-Benz Arena", price_from: 70, currency: "EUR", tickets_url: "https://tickets.example.com/billie-elish-berlin-2025-11-02" },
@@ -155,7 +155,7 @@ const artists = [
     genre: "Pop / R&B",
     country: "Estados Unidos",
     slug: slugify("Beyoncé"),
-    photo: "",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
     events: [
       { id: "11-1", date: "2025-09-27", city: "Houston", country: "USA", venue: "NRG Stadium", price_from: 95, currency: "USD", tickets_url: "https://tickets.example.com/beyonce-houston-2025-09-27" },
       { id: "11-2", date: "2025-10-29", city: "París", country: "Francia", venue: "Stade de France", price_from: 100, currency: "EUR", tickets_url: "https://tickets.example.com/beyonce-paris-2025-10-29" },
@@ -168,7 +168,7 @@ const artists = [
     genre: "Pop / Rock",
     country: "Reino Unido",
     slug: slugify("Harry Styles"),
-    photo: "",
+    photo: "https://m.media-amazon.com/images/M/MV5BMTUxMzU2MTk1OF5BMl5BanBnXkFtZTgwNzg4NjAwMzI@._V1_FMjpg_UX1000_.jpg",
     events: [
       { id: "12-1", date: "2025-10-06", city: "Manchester", country: "Reino Unido", venue: "Etihad Stadium", price_from: 70, currency: "GBP", tickets_url: "https://tickets.example.com/harry-styles-manchester-2025-10-06" },
       { id: "12-2", date: "2025-11-12", city: "Lisboa", country: "Portugal", venue: "Altice Arena", price_from: 65, currency: "EUR", tickets_url: "https://tickets.example.com/harry-styles-lisboa-2025-11-12" },
@@ -181,7 +181,7 @@ const artists = [
     genre: "Hip-hop / Pop",
     country: "Estados Unidos",
     slug: slugify("Post Malone"),
-    photo: "",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/12/Post_Malone_at_the_2019_American_Music_Awards.png",
     events: [
       { id: "13-1", date: "2025-09-20", city: "Las Vegas", country: "USA", venue: "T-Mobile Arena", price_from: 80, currency: "USD", tickets_url: "https://tickets.example.com/post-malone-vegas-2025-09-20" },
       { id: "13-2", date: "2025-11-09", city: "Zúrich", country: "Suiza", venue: "Hallenstadion", price_from: 75, currency: "CHF", tickets_url: "https://tickets.example.com/post-malone-zurich-2025-11-09" },
@@ -194,7 +194,7 @@ const artists = [
     genre: "Pop",
     country: "Estados Unidos",
     slug: slugify("Ariana Grande"),
-    photo: "",
+    photo: "https://media.revistavanityfair.es/photos/60e84e19a9295aeb634d0818/master/w_1600%2Cc_limit/28454.jpg",
     events: [
       { id: "14-1", date: "2025-10-01", city: "Los Ángeles", country: "USA", venue: "Kia Forum", price_from: 90, currency: "USD", tickets_url: "https://tickets.example.com/ariana-la-2025-10-01" },
       { id: "14-2", date: "2025-11-22", city: "Madrid", country: "España", venue: "WiZink Center", price_from: 85, currency: "EUR", tickets_url: "https://tickets.example.com/ariana-madrid-2025-11-22" },
@@ -206,7 +206,7 @@ const artists = [
     genre: "Rock / Pop",
     country: "Estados Unidos",
     slug: slugify("Imagine Dragons"),
-    photo: "",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/0/04/Imagine_Dragons%2C_Roundhouse%2C_London_%2835390234536%29.jpg",
     events: [
       { id: "15-1", date: "2025-09-25", city: "Praga", country: "Chequia", venue: "O2 Arena", price_from: 60, currency: "EUR", tickets_url: "https://tickets.example.com/imagine-dragons-praga-2025-09-25" },
       { id: "15-2", date: "2025-12-03", city: "Ciudad de México", country: "México", venue: "Arena CDMX", price_from: 50, currency: "MXN", tickets_url: "https://tickets.example.com/imagine-dragons-cdmx-2025-12-03" },
@@ -219,7 +219,7 @@ const artists = [
     genre: "Reggaetón",
     country: "Colombia",
     slug: slugify("J Balvin"),
-    photo: "",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/J_Balvin%2C_Noisey_Meets%3B_Oct_2018.jpg",
     events: [
       { id: "16-1", date: "2025-10-08", city: "Medellín", country: "Colombia", venue: "Estadio Atanasio Girardot", price_from: 35, currency: "COP", tickets_url: "https://tickets.example.com/j-balvin-medellin-2025-10-08" },
       { id: "16-2", date: "2025-11-27", city: "Madrid", country: "España", venue: "Vistalegre Arena", price_from: 50, currency: "EUR", tickets_url: "https://tickets.example.com/j-balvin-madrid-2025-11-27" },
@@ -232,7 +232,7 @@ const artists = [
     genre: "Pop latino",
     country: "Colombia",
     slug: slugify("Shakira"),
-    photo: "",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/0/0b/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2901.jpg",
     events: [
       { id: "17-1", date: "2025-09-29", city: "Barcelona", country: "España", venue: "Estadi Olímpic", price_from: 70, currency: "EUR", tickets_url: "https://tickets.example.com/shakira-barcelona-2025-09-29" },
       { id: "17-2", date: "2025-11-16", city: "Miami", country: "USA", venue: "Kaseya Center", price_from: 85, currency: "USD", tickets_url: "https://tickets.example.com/shakira-miami-2025-11-16" },
