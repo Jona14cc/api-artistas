@@ -51,7 +51,7 @@ const artists = [
     genre: "Rock / Pop",
     country: "Reino Unido",
     slug: slugify("Coldplay"),
-    photo: "",
+    photo: "https://imagenes.elpais.com/resizer/v2/AHK4UHCHQ5EJJMOJISB4XF6C7E.jpg?auth=2a2fbbae9a847fdaf0ea0ce87f996ad96513d4cee708570128a8254570f0f1ce&width=414",
     events: [
       { id: "3-1", date: "2025-09-15", city: "Londres", country: "Reino Unido", venue: "Wembley Stadium", price_from: 75, currency: "GBP", tickets_url: "https://tickets.example.com/coldplay-londres-2025-09-15" },
       { id: "3-2", date: "2025-10-10", city: "París", country: "Francia", venue: "Stade de France", price_from: 70, currency: "EUR", tickets_url: "https://tickets.example.com/coldplay-paris-2025-10-10" },
@@ -64,7 +64,7 @@ const artists = [
     genre: "Pop / Alternativo",
     country: "Estados Unidos",
     slug: slugify("Billie Eilish"),
-    photo: "",
+    photo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.independentespanol.com%2Fap%2Fresea-billie-eilish-sigue-brillando-en-2do-lbum-resea-billie-eilish-sigue-brillando-en-2do-lbum-b1894107.html&psig=AOvVaw2W9J55qUU58Gtrh3k_1cRI&ust=1756454470262000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLibjP2ErY8DFQAAAAAdAAAAABAK",
     events: [
       { id: "4-1", date: "2025-09-30", city: "Los Ángeles", country: "USA", venue: "Crypto.com Arena", price_from: 85, currency: "USD", tickets_url: "https://tickets.example.com/billie-elish-la-2025-09-30" },
       { id: "4-2", date: "2025-11-02", city: "Berlín", country: "Alemania", venue: "Mercedes-Benz Arena", price_from: 70, currency: "EUR", tickets_url: "https://tickets.example.com/billie-elish-berlin-2025-11-02" },
@@ -77,7 +77,7 @@ const artists = [
     genre: "Pop / Folk",
     country: "Reino Unido",
     slug: slugify("Ed Sheeran"),
-    photo: "",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/1200px-Ed_Sheeran-6886_%28cropped%29.jpg",
     events: [
       { id: "5-1", date: "2025-09-19", city: "Dublín", country: "Irlanda", venue: "Croke Park", price_from: 65, currency: "EUR", tickets_url: "https://tickets.example.com/ed-sheeran-dublin-2025-09-19" },
       { id: "5-2", date: "2025-10-22", city: "Roma", country: "Italia", venue: "Stadio Olimpico", price_from: 70, currency: "EUR", tickets_url: "https://tickets.example.com/ed-sheeran-roma-2025-10-22" },
@@ -90,7 +90,7 @@ const artists = [
     genre: "Pop",
     country: "Reino Unido",
     slug: slugify("Dua Lipa"),
-    photo: "",
+    photo: "https://m.media-amazon.com/images/M/MV5BYmRjM2RlZjItMDZhNS00MTM2LThiZDUtZDQxMmVjYjQ2ZmM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     events: [
       { id: "6-1", date: "2025-09-26", city: "Ámsterdam", country: "Países Bajos", venue: "Ziggo Dome", price_from: 60, currency: "EUR", tickets_url: "https://tickets.example.com/dua-lipa-amsterdam-2025-09-26" },
       { id: "6-2", date: "2025-10-31", city: "Madrid", country: "España", venue: "WiZink Center", price_from: 65, currency: "EUR", tickets_url: "https://tickets.example.com/dua-lipa-madrid-2025-10-31" },
@@ -103,7 +103,7 @@ const artists = [
     genre: "Pop / Flamenco",
     country: "España",
     slug: slugify("Rosalía"),
-    photo: "",
+    photo: "https://hips.hearstapps.com/hmg-prod/images/rosalia-performs-on-stage-during-the-motomami-tour-at-news-photo-1659339847.jpg",
     events: [
       { id: "7-1", date: "2025-09-21", city: "Sevilla", country: "España", venue: "Estadio La Cartuja", price_from: 45, currency: "EUR", tickets_url: "https://tickets.example.com/rosalia-sevilla-2025-09-21" },
       { id: "7-2", date: "2025-10-25", city: "París", country: "Francia", venue: "Accor Arena", price_from: 55, currency: "EUR", tickets_url: "https://tickets.example.com/rosalia-paris-2025-10-25" },
@@ -116,7 +116,7 @@ const artists = [
     genre: "Reggaetón / Pop latino",
     country: "Colombia",
     slug: slugify("Karol G"),
-    photo: "",
+    photo: "https://cdn-images.dzcdn.net/images/artist/dd8c6b3068d2761955eb6e432046ed91/1900x1900-000000-81-0-0.jpg",
     events: [
       { id: "8-1", date: "2025-09-18", city: "Bogotá", country: "Colombia", venue: "Estadio El Campín", price_from: 40, currency: "COP", tickets_url: "https://tickets.example.com/karol-g-bogota-2025-09-18" },
       { id: "8-2", date: "2025-10-27", city: "Lima", country: "Perú", venue: "Estadio Nacional", price_from: 35, currency: "PEN", tickets_url: "https://tickets.example.com/karol-g-lima-2025-10-27" },
@@ -129,7 +129,7 @@ const artists = [
     genre: "R&B / Pop",
     country: "Canadá",
     slug: slugify("The Weeknd"),
-    photo: "",
+    photo: "https://industriamusical.com/wp-content/uploads/2023/01/The_Weeknd.jpg",
     events: [
       { id: "9-1", date: "2025-10-03", city: "Los Ángeles", country: "USA", venue: "SoFi Stadium", price_from: 95, currency: "USD", tickets_url: "https://tickets.example.com/weeknd-la-2025-10-03" },
       { id: "9-2", date: "2025-11-10", city: "Madrid", country: "España", venue: "Santiago Bernabéu", price_from: 100, currency: "EUR", tickets_url: "https://tickets.example.com/weeknd-madrid-2025-11-10" },
@@ -142,7 +142,7 @@ const artists = [
     genre: "Hip-hop / R&B",
     country: "Canadá",
     slug: slugify("Drake"),
-    photo: "",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/28/Drake_July_2016.jpg",
     events: [
       { id: "10-1", date: "2025-09-24", city: "Chicago", country: "USA", venue: "United Center", price_from: 85, currency: "USD", tickets_url: "https://tickets.example.com/drake-chicago-2025-09-24" },
       { id: "10-2", date: "2025-11-18", city: "Londres", country: "Reino Unido", venue: "The O2", price_from: 80, currency: "GBP", tickets_url: "https://tickets.example.com/drake-londres-2025-11-18" },
@@ -283,6 +283,7 @@ const artists = [
     genre: "Pop / Funk",
     country: "Estados Unidos",
     slug: slugify("Bruno Mars"),
+    photo: "",
     events: [
       { id: "21-1", date: "2025-10-14", city: "Las Vegas", country: "USA", venue: "Park MGM", price_from: 120, currency: "USD", tickets_url: "https://tickets.example.com/bruno-mars-vegas-2025-10-14" },
       { id: "21-2", date: "2025-12-09", city: "Londres", country: "Reino Unido", venue: "The O2", price_from: 95, currency: "GBP", tickets_url: "https://tickets.example.com/bruno-mars-londres-2025-12-09" },
@@ -294,6 +295,7 @@ const artists = [
     genre: "Pop",
     country: "Estados Unidos",
     slug: slugify("Lady Gaga"),
+    photo: "",
     events: [
       { id: "22-1", date: "2025-10-05", city: "Milán", country: "Italia", venue: "Mediolanum Forum", price_from: 80, currency: "EUR", tickets_url: "https://tickets.example.com/lady-gaga-milan-2025-10-05" },
       { id: "22-2", date: "2025-11-30", city: "Nueva York", country: "USA", venue: "Madison Square Garden", price_from: 110, currency: "USD", tickets_url: "https://tickets.example.com/lady-gaga-nyc-2025-11-30" },
@@ -305,6 +307,7 @@ const artists = [
     genre: "Hip-hop",
     country: "Estados Unidos",
     slug: slugify("Kendrick Lamar"),
+    photo: "",
     events: [
       { id: "23-1", date: "2025-09-17", city: "Oakland", country: "USA", venue: "Oakland Arena", price_from: 85, currency: "USD", tickets_url: "https://tickets.example.com/kendrick-oakland-2025-09-17" },
       { id: "23-2", date: "2025-11-08", city: "París", country: "Francia", venue: "Accor Arena", price_from: 80, currency: "EUR", tickets_url: "https://tickets.example.com/kendrick-paris-2025-11-08" },
@@ -316,6 +319,7 @@ const artists = [
     genre: "Hip-hop",
     country: "Estados Unidos",
     slug: slugify("Travis Scott"),
+    photo: "",
     events: [
       { id: "24-1", date: "2025-10-11", city: "Houston", country: "USA", venue: "Toyota Center", price_from: 85, currency: "USD", tickets_url: "https://tickets.example.com/travis-houston-2025-10-11" },
       { id: "24-2", date: "2025-12-06", city: "Berlín", country: "Alemania", venue: "Mercedes-Benz Arena", price_from: 75, currency: "EUR", tickets_url: "https://tickets.example.com/travis-berlin-2025-12-06" },
@@ -327,6 +331,7 @@ const artists = [
     genre: "Pop",
     country: "Estados Unidos",
     slug: slugify("Olivia Rodrigo"),
+    photo: "",
     events: [
       { id: "25-1", date: "2025-09-16", city: "Madrid", country: "España", venue: "WiZink Center", price_from: 60, currency: "EUR", tickets_url: "https://tickets.example.com/olivia-rodrigo-madrid-2025-09-16" },
       { id: "25-2", date: "2025-10-23", city: "Londres", country: "Reino Unido", venue: "The O2", price_from: 75, currency: "GBP", tickets_url: "https://tickets.example.com/olivia-rodrigo-londres-2025-10-23" },
@@ -339,6 +344,7 @@ const artists = [
     genre: "Hip-hop / Pop",
     country: "Estados Unidos",
     slug: slugify("Doja Cat"),
+    photo: "",
     events: [
       { id: "26-1", date: "2025-10-02", city: "Chicago", country: "USA", venue: "United Center", price_from: 70, currency: "USD", tickets_url: "https://tickets.example.com/doja-chicago-2025-10-02" },
       { id: "26-2", date: "2025-11-21", city: "Madrid", country: "España", venue: "IFEMA Hall", price_from: 65, currency: "EUR", tickets_url: "https://tickets.example.com/doja-madrid-2025-11-21" },
@@ -350,6 +356,7 @@ const artists = [
     genre: "Pop",
     country: "Canadá",
     slug: slugify("Justin Bieber"),
+    photo: "",
     events: [
       { id: "27-1", date: "2025-10-15", city: "Vancouver", country: "Canadá", venue: "Rogers Arena", price_from: 85, currency: "CAD", tickets_url: "https://tickets.example.com/justin-vancouver-2025-10-15" },
       { id: "27-2", date: "2025-12-01", city: "Madrid", country: "España", venue: "WiZink Center", price_from: 80, currency: "EUR", tickets_url: "https://tickets.example.com/justin-madrid-2025-12-01" },
@@ -361,6 +368,7 @@ const artists = [
     genre: "Rock",
     country: "Reino Unido",
     slug: slugify("The Rolling Stones"),
+    photo: "",
     events: [
       { id: "28-1", date: "2025-09-14", city: "Londres", country: "Reino Unido", venue: "Hyde Park", price_from: 95, currency: "GBP", tickets_url: "https://tickets.example.com/stones-londres-2025-09-14" },
       { id: "28-2", date: "2025-10-26", city: "Madrid", country: "España", venue: "Santiago Bernabéu", price_from: 100, currency: "EUR", tickets_url: "https://tickets.example.com/stones-madrid-2025-10-26" },
@@ -372,6 +380,7 @@ const artists = [
     genre: "Rock",
     country: "Irlanda",
     slug: slugify("U2"),
+    photo: "",
     events: [
       { id: "29-1", date: "2025-11-03", city: "Dublín", country: "Irlanda", venue: "3Arena", price_from: 85, currency: "EUR", tickets_url: "https://tickets.example.com/u2-dublin-2025-11-03" },
       { id: "29-2", date: "2026-02-12", city: "Las Vegas", country: "USA", venue: "Sphere", price_from: 120, currency: "USD", tickets_url: "https://tickets.example.com/u2-vegas-2026-02-12" },
@@ -383,6 +392,7 @@ const artists = [
     genre: "Rock",
     country: "Estados Unidos",
     slug: slugify("Foo Fighters"),
+    photo: "",
     events: [
       { id: "30-1", date: "2025-09-22", city: "Barcelona", country: "España", venue: "Parc del Fòrum", price_from: 70, currency: "EUR", tickets_url: "https://tickets.example.com/foo-barcelona-2025-09-22" },
       { id: "30-2", date: "2025-11-26", city: "Buenos Aires", country: "Argentina", venue: "Tecnópolis", price_from: 60, currency: "ARS", tickets_url: "https://tickets.example.com/foo-buenos-aires-2025-11-26" },
@@ -395,6 +405,7 @@ const artists = [
     genre: "Rock alternativo",
     country: "Reino Unido",
     slug: slugify("Muse"),
+    photo: "",
     events: [
       { id: "31-1", date: "2025-10-07", city: "París", country: "Francia", venue: "Accor Arena", price_from: 65, currency: "EUR", tickets_url: "https://tickets.example.com/muse-paris-2025-10-07" },
       { id: "31-2", date: "2025-12-11", city: "Madrid", country: "España", venue: "WiZink Center", price_from: 70, currency: "EUR", tickets_url: "https://tickets.example.com/muse-madrid-2025-12-11" },
@@ -406,6 +417,7 @@ const artists = [
     genre: "Indie Rock",
     country: "Reino Unido",
     slug: slugify("Arctic Monkeys"),
+    photo: "",
     events: [
       { id: "32-1", date: "2025-09-18", city: "Manchester", country: "Reino Unido", venue: "AO Arena", price_from: 60, currency: "GBP", tickets_url: "https://tickets.example.com/arctic-manchester-2025-09-18" },
       { id: "32-2", date: "2025-11-14", city: "Barcelona", country: "España", venue: "Sant Jordi Club", price_from: 55, currency: "EUR", tickets_url: "https://tickets.example.com/arctic-barcelona-2025-11-14" },
@@ -418,6 +430,7 @@ const artists = [
     genre: "Reggaetón / Pop",
     country: "Colombia",
     slug: slugify("Maluma"),
+    photo: "",
     events: [
       { id: "33-1", date: "2025-10-04", city: "Medellín", country: "Colombia", venue: "La Macarena", price_from: 35, currency: "COP", tickets_url: "https://tickets.example.com/maluma-medellin-2025-10-04" },
       { id: "33-2", date: "2025-11-23", city: "Santo Domingo", country: "R. Dominicana", venue: "Estadio Quisqueya", price_from: 40, currency: "DOP", tickets_url: "https://tickets.example.com/maluma-sd-2025-11-23" },
@@ -430,6 +443,7 @@ const artists = [
     genre: "Balada / Pop",
     country: "México",
     slug: slugify("Luis Miguel"),
+    photo: "",
     events: [
       { id: "34-1", date: "2025-09-13", city: "Monterrey", country: "México", venue: "Arena Monterrey", price_from: 50, currency: "MXN", tickets_url: "https://tickets.example.com/luismi-monterrey-2025-09-13" },
       { id: "34-2", date: "2025-10-20", city: "Madrid", country: "España", venue: "Barclaycard Center", price_from: 70, currency: "EUR", tickets_url: "https://tickets.example.com/luismi-madrid-2025-10-20" },
@@ -442,6 +456,7 @@ const artists = [
     genre: "Pop",
     country: "Estados Unidos / Cuba",
     slug: slugify("Camila Cabello"),
+    photo: "",
     events: [
       { id: "35-1", date: "2025-10-10", city: "Miami", country: "USA", venue: "Kaseya Center", price_from: 60, currency: "USD", tickets_url: "https://tickets.example.com/camila-miami-2025-10-10" },
       { id: "35-2", date: "2025-11-28", city: "Madrid", country: "España", venue: "WiZink Center", price_from: 65, currency: "EUR", tickets_url: "https://tickets.example.com/camila-madrid-2025-11-28" },
@@ -453,6 +468,7 @@ const artists = [
     genre: "Reggaetón",
     country: "Puerto Rico",
     slug: slugify("Ozuna"),
+    photo: "",
     events: [
       { id: "36-1", date: "2025-09-16", city: "San Juan", country: "Puerto Rico", venue: "Coliseo de PR", price_from: 40, currency: "USD", tickets_url: "https://tickets.example.com/ozuna-san-juan-2025-09-16" },
       { id: "36-2", date: "2025-12-13", city: "Madrid", country: "España", venue: "Vistalegre Arena", price_from: 50, currency: "EUR", tickets_url: "https://tickets.example.com/ozuna-madrid-2025-12-13" },
@@ -465,6 +481,7 @@ const artists = [
     genre: "Reggaetón",
     country: "Puerto Rico",
     slug: slugify("Daddy Yankee"),
+    photo: "",
     events: [
       { id: "37-1", date: "2025-10-20", city: "San Juan", country: "Puerto Rico", venue: "Hiram Bithorn Stadium", price_from: 70, currency: "USD", tickets_url: "https://tickets.example.com/dy-san-juan-2025-10-20" },
       { id: "37-2", date: "2025-12-08", city: "Miami", country: "USA", venue: "Kaseya Center", price_from: 85, currency: "USD", tickets_url: "https://tickets.example.com/dy-miami-2025-12-08" },
@@ -476,6 +493,7 @@ const artists = [
     genre: "Urbano / Trap",
     country: "España",
     slug: slugify("Quevedo"),
+    photo: "",
     events: [
       { id: "38-1", date: "2025-09-11", city: "Madrid", country: "España", venue: "WiZink Center", price_from: 35, currency: "EUR", tickets_url: "https://tickets.example.com/quevedo-madrid-2025-09-11" },
       { id: "38-2", date: "2025-11-06", city: "Barcelona", country: "España", venue: "Palau Sant Jordi", price_from: 38, currency: "EUR", tickets_url: "https://tickets.example.com/quevedo-barcelona-2025-11-06" },
@@ -488,6 +506,7 @@ const artists = [
     genre: "Urbano / Pop",
     country: "España",
     slug: slugify("C. Tangana"),
+    photo: "",
     events: [
       { id: "39-1", date: "2025-09-17", city: "Valencia", country: "España", venue: "Ciudad de las Artes", price_from: 45, currency: "EUR", tickets_url: "https://tickets.example.com/ctangana-valencia-2025-09-17" },
       { id: "39-2", date: "2025-10-30", city: "Madrid", country: "España", venue: "WiZink Center", price_from: 50, currency: "EUR", tickets_url: "https://tickets.example.com/ctangana-madrid-2025-10-30" },
@@ -500,6 +519,7 @@ const artists = [
     genre: "Urbano / Trap",
     country: "Puerto Rico",
     slug: slugify("Myke Towers"),
+    photo: "",
     events: [
       { id: "40-1", date: "2025-10-03", city: "San Juan", country: "Puerto Rico", venue: "Coliseo de PR", price_from: 35, currency: "USD", tickets_url: "https://tickets.example.com/myke-san-juan-2025-10-03" },
       { id: "40-2", date: "2025-11-29", city: "Madrid", country: "España", venue: "Vistalegre Arena", price_from: 45, currency: "EUR", tickets_url: "https://tickets.example.com/myke-madrid-2025-11-29" },
